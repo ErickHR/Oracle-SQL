@@ -8,6 +8,7 @@
         
     NOTA:
         para saber una ip de una pc, escriba en la terminal ipconfig
+        desactivar el firewall de la PC1
 */
 
 SQLPLUS ERICK/123@192.168.0.0

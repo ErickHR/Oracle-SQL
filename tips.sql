@@ -1,7 +1,12 @@
 /*
     para borrar una tabla se usa
         DROP TABLE nombre_de_la_tabla
-        
+    
+    para borrar un usuario se usa
+        DROP USER nombre_del_usuario CASCADE;
+                si no quiere eliminar (ERROR: ORA-28014) 
+                se usa ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
+    
     para guardar los cambios
     
         COMMIT --> muy importante, no olvidarse!!!
@@ -17,3 +22,7 @@
 */
 
 DROP TABLE PERSONA;
+
+DROP USER ERICK CASCADE;
+
+
